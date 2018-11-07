@@ -30,15 +30,15 @@
             <p>The visible part of the HTML document is between &lt;body&gt; and &lt;&#92;body&gt;.</p>
             <p>HTML headings are defined with the &lt;h1&gt; to &lt;h6&gt; tags. &lt;h1&gt; defines the most important heading. &lt;h6&gt; defines the least important heading: </p>
             <div class="code">
-            <code>
-                &lt;h1&gt; This is heading 1 &lt;&#92;h1&gt;
-                <br>
+                <code>
+                    &lt;h1&gt; This is heading 1 &lt;&#92;h1&gt;
+                    <br>
 
-                &lt;h2&gt; This is heading 2 &lt;&#92;h2&gt;
-                <br>
+                    &lt;h2&gt; This is heading 2 &lt;&#92;h2&gt;
+                    <br>
 
-                &lt;h3&gt; This is heading 3 &lt;&#92;h3&gt;
-            </code>
+                    &lt;h3&gt; This is heading 3 &lt;&#92;h3&gt;
+                </code>
             </div>
         </section>
         <section class="main-section" id="Cascading_Stylesheet">
@@ -46,21 +46,21 @@
             <p>This CSS tutorial contains hundreds of CSS examples.</p>
             <p>With our online editor, you can edit the CSS, and click on a button to view the result.</p>
             <div class="code">
-               <code>
-                body {
-                background-color: lightblue;
-                }
-                <br>
-                h1 {
-                color: white;
-                text-align: center;
-                }
-<br>
-                p {
-                font-family: verdana;
-                font-size: 20px;
-                }
-            </code>
+                <code>
+                    body {
+                    background-color: lightblue;
+                    }
+                    <br>
+                    h1 {
+                    color: white;
+                    text-align: center;
+                    }
+                    <br>
+                    p {
+                    font-family: verdana;
+                    font-size: 20px;
+                    }
+                </code>
             </div>
             <p>CSS stands for Cascading Style Sheets</p>
             <p>CSS describes how HTML elements are to be displayed on screen, paper, or in other media</p>
@@ -69,12 +69,44 @@
         </section>
         <section class="main-section" id="Javascript">
             <header>Javascript</header>
+            <h3>JavaScript Can Change HTML Content</h3>
+            <p>One of many JavaScript HTML methods is getElementById().</p>
+            <p>This example uses the method to "find" an HTML element (with id="demo") and changes the element content (innerHTML) to "Hello JavaScript":</p>
+            <div class="code">
+                <code>
+                    document.getElementById("demo").innerHTML = "Hello JavaScript";
+                </code>
+            </div>
+            <blockquote cite="https://www.w3schools.com/js/js_intro.asp">JavaScript accepts both double and single quotes</blockquote>
         </section>
         <section class="main-section" id="Bootstrap">
             <header>Bootstrap</header>
+            <h3>What is Bootstrap?</h3>
+            <ul>
+                <li>Bootstrap is a free front-end framework for faster and easier web development</li>
+                <li>Bootstrap includes HTML and CSS based design templates for typography, forms, buttons, tables, navigation, modals, image carousels and many other, as well as optional JavaScript plugins</li>
+                <li>Bootstrap also gives you the ability to easily create responsive designs</li>
+            </ul>
+
+            <p><center>Include it as a CDN</center></p>
+            <div class="code">
+                <code>link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on<br>3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"</code>
+            </div>
         </section>
         <section class="main-section" id="Skeleton">
             <header>Skeleton</header>
+            <h3>Is Skeleton for you?</h3>
+            <p>You should use Skeleton if you're embarking on a smaller project or just don't feel like you need all the utility of larger frameworks. Skeleton only styles a handful of standard HTML elements and includes a grid, but that's often more than enough to get started.</p>
+            <ul>
+                <li>The grid is a 12-column fluid grid with a max width of 960px, that shrinks with the browser/device at smaller sizes. </li>
+                <li>The syntax is simple and it makes coding responsive much easier.</li>
+            </ul>
+            <div class="code">
+                <code>/* Make element full width */
+                    <br>.u-full-width {
+                    width: 100%;
+                    box-sizing: border-box; }</code>
+            </div>
         </section>
     </main>
 
